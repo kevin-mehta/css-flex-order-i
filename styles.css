@@ -34,6 +34,13 @@ h1 {
   margin-bottom: 10px;
 }
 
+.cont-1,
+.cont-2,
+.cont-3,
+.cont-4 {
+  order: 1;
+}
+
 .border-gray {
   border: 1px solid gray;
 }
@@ -48,4 +55,19 @@ h1 {
 
 .border-green {
   border: 1px solid green;
+}
+
+@media screen and (max-width: 767px) {
+  /* .cont-1 {
+    order: 1;
+  }
+  .cont-2 {
+    order: 3;
+  }
+  .cont-3 {
+    order: 2;
+  }
+  .cont-4 {
+    order: 4;
+  } */
 }
