@@ -17,3 +17,35 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.cont {
+  margin-bottom: 10px;
+}
+
+.border-gray {
+  border: 1px solid gray;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.border-blue {
+  border: 1px solid blue;
+}
+
+.border-green {
+  border: 1px solid green;
+}
