@@ -26,19 +26,12 @@ h1 {
   flex-direction: row;
 }
 
-.col {
-  flex-direction: column;
+.par {
+  flex-direction: row;
 }
 
 .cont {
   margin-bottom: 10px;
-}
-
-.cont-1,
-.cont-2,
-.cont-3,
-.cont-4 {
-  order: 1;
 }
 
 .border-gray {
@@ -57,17 +50,38 @@ h1 {
   border: 1px solid green;
 }
 
+.cont-1 {
+  order: 1;
+}
+.cont-2 {
+  order: 3;
+}
+.cont-3 {
+  order: 2;
+}
+.cont-4 {
+  order: 4;
+}
+
+.p-cont {
+  flex-direction: column;
+}
+
+.p-cont-1,
+.p-cont-2,
+.p-cont-3,
+.p-cont-4 {
+}
+
 @media screen and (max-width: 767px) {
-  /* .cont-1 {
+  .par {
+    flex-direction: column;
+  }
+
+  .cont-1,
+  .cont-2,
+  .cont-3,
+  .cont-4 {
     order: 1;
   }
-  .cont-2 {
-    order: 3;
-  }
-  .cont-3 {
-    order: 2;
-  }
-  .cont-4 {
-    order: 4;
-  } */
 }
